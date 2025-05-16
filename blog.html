@@ -1,22 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Blog | West Inspire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { font-family: Arial, sans-serif; margin:0; padding:0; color:#333; }
-        header { background:#4b0082; color:white; padding:20px; text-align:center; }
-        nav { background:#333;padding:10px;text-align:center; }
-        nav a { color:white;margin:0 15px;text-decoration:none; }
-        footer { background:#222; color:white; text-align:center; padding:20px; }
-        .container { max-width:900px; margin:auto; padding:20px; }
-        h1, h2 { color:#4b0082; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: #111; color: white; display: flex; justify-content: space-between; align-items: center; padding: 20px; }
+        nav a { color: white; margin-left: 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 60px 20px; text-align: center; }
+        footer { background: #111; color: white; text-align: center; padding: 20px; }
+        a.cta { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #111; color: white; text-decoration: none; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Blog</h1>
-    </header>
+    
+<header>
+    <img src="logo.png" alt="Keron West Logo" style="height:50px;">
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -24,18 +25,27 @@
         <a href="blog.html">Blog</a>
         <a href="contact.html">Contact</a>
     </nav>
-    <div class="container">
+</header>
+
+    <section>
         
 <h2>Latest Blog Posts</h2>
-<ul>
-    <li><a href="post1.html">Why I Believe in Goal Setting</a></li>
-    <li><a href="post2.html">Lessons from the Hospitality Industry</a></li>
-    <li><a href="post3.html">The Power of Stillness</a></li>
-</ul>
+<article>
+    <h3>Set the Bar, Then Break It</h3>
+    <p>Discover how to crush your goals by first setting bold intentions and committing to self-discipline...</p>
+    <a href="#" class="cta">Read More</a>
+</article>
+<article>
+    <h3>Stillness Is Power</h3>
+    <p>Learn how taking time to reflect and meditate can help unlock clarity and better decision-making.</p>
+    <a href="#" class="cta">Read More</a>
+</article>
 
-    </div>
-    <footer>
-        <p>&copy; 2025 West Inspire. All rights reserved.</p>
-    </footer>
+    </section>
+    
+<footer>
+    &copy; 2025 Keron West. All rights reserved.
+</footer>
+
 </body>
 </html>
