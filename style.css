@@ -33,7 +33,7 @@ main {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-.payhip-add-to-cart-button {
+.payhip-buy-now {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
