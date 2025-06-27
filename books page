@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Books - West Inspire</title>
+  <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mindset Mastery Series</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main class="books">
+    <section>
+      <img src="foundation.jpg" alt="Foundation Edition" />
+      <h2>Mindset Mastery: The Foundation Edition</h2>
+      <p>Build a strong mindset foundation. Identify limiting beliefs and activate new mental clarity.</p>
+      <a href="https://payhip.com/b/eXVQy" class="payhip-add-to-cart-button">Buy Foundation Edition</a>
+    </section>
+    <section>
+      <img src="confidence.jpg" alt="Confidence Edition" />
+      <h2>Mindset Mastery: The Confidence Edition</h2>
+      <p>Silence doubt, build inner belief, and walk boldly in your purpose.</p>
+      <a href="https://payhip.com/b/L5z91" class="payhip-add-to-cart-button">Buy Confidence Edition</a>
+    </section>
+    <section>
+      <img src="breakthrough.jpg" alt="Breakthrough Edition" />
+      <h2>Mindset Mastery: The Breakthrough Edition</h2>
+      <p>Break through fear and rise into the highest version of yourself.</p>
+      <a href="https://payhip.com/b/VsJEZ" class="payhip-add-to-cart-button">Buy Breakthrough Edition</a>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 West Inspire</p>
